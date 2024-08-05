@@ -1,0 +1,23 @@
+{
+  "name": "bugShowCase",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^8.1.0",
+    "@sap/cds-dk": "^8.1.0",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1.7.3",
+    "@sap/eslint-plugin-cds": "^3.0.4",
+    "cds-plugin-ui5": "^0.9.7",
+    "eslint": "^9.8.0"
+  },
+  "scripts": {
+    "start": "cds watch"
+  }
+}

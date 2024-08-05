@@ -1,0 +1,64 @@
+<mvc:View
+	controllerName="bug.showcase.controller.Main"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="{i18n>appTitle}"
+		id="mainPage">
+		<content>
+			<form:Form
+				id="formExample"
+				editable="true">
+				<form:layout>
+					<form:ResponsiveGridLayout
+						labelSpanXL="3"
+						labelSpanL="3"
+						labelSpanM="3"
+						labelSpanS="12"
+						adjustLabelSpan="false"
+						emptySpanXL="4"
+						emptySpanL="4"
+						emptySpanM="4"
+						emptySpanS="0"
+						columnsXL="1"
+						columnsL="1"
+						columnsM="1"
+						singleContainerFullSize="false"/>
+				</form:layout>
+				<form:formContainers>
+					<form:FormContainer id="fcoExample">
+						<form:formElements>
+							<form:FormElement
+								id="felTitle"
+								label="Title">
+								<form:fields>
+									<Input id="inpTitle" value="{Title}"/>
+								</form:fields>
+							</form:FormElement>
+							<form:FormElement
+								id="felDescription"
+								label="Description">
+								<form:fields>
+									<Input id="inpDescription" value="{Description}"/>
+								</form:fields>
+							</form:FormElement>
+						</form:formElements>
+					</form:FormContainer>
+				</form:formContainers>
+			</form:Form>
+		</content>
+		<footer>
+			<Toolbar id="tlbFooter">
+				<ToolbarSpacer/>
+				<Button id="btnSaveBatchMode"
+								text="Save using batch mode"
+								press="onPressSaveBatchMode"/>
+				<Button id="btnSaveSingleMode"
+								text="Save using single mode"
+								press="onPressSaveSingleMode"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

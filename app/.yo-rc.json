@@ -1,0 +1,19 @@
+{
+  "generator-ui5-ts-app": {
+    "namespace": "bug.showcase",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.126.1",
+    "author": "Marius Heußner",
+    "initrepo": false,
+    "tstypes": "@openui5/types",
+    "tstypesVersion": "1.126.1",
+    "appId": "bug.showcase",
+    "appURI": "bug/showcase",
+    "cdnDomain": "sdk.openui5.org",
+    "defaultTheme": "sap_horizon",
+    "gte1_98_0": true,
+    "gte1_104_0": true,
+    "gte1_115_0": true,
+    "setupCompleted": true
+  }
+}
